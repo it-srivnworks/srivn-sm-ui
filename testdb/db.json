@@ -1,0 +1,33 @@
+{
+  "users": [{
+  "userEmail": "jsiviter0@hhs.gov",
+  "userPassword": "GMzL6FjvMY"
+}, {
+  "userEmail": "gbertelsen1@geocities.com",
+  "userPassword": "ZXN4kwv2"
+}, {
+  "userEmail": "tsebley2@macromedia.com",
+  "userPassword": "MeYr8n4"
+}, {
+  "userEmail": "malston3@example.com",
+  "userPassword": "BOKX1JQBo"
+}, {
+  "userEmail": "mvoisey4@barnesandnoble.com",
+  "userPassword": "wMMpAZ0"
+}, {
+  "userEmail": "btuiller5@craigslist.org",
+  "userPassword": "FnaJxz"
+}, {
+  "userEmail": "plourenco6@stumbleupon.com",
+  "userPassword": "kVJ5kufc9l"
+}, {
+  "userEmail": "awalworth7@gov.uk",
+  "userPassword": "e82KT9r"
+}, {
+  "userEmail": "bpirdue8@smugmug.com",
+  "userPassword": "KyaDbPEgLe"
+}, {
+  "userEmail": "bcarley9@archive.org",
+  "userPassword": "xjCFdVyyj"
+}]
+}
