@@ -1,0 +1,14 @@
+$dark : #083B66;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.sm-background {
+    background-color: #083B66;
+    color: #FFF;
+}
+
+.sm-align-center {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20%;
+}
