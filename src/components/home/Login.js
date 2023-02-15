@@ -66,7 +66,9 @@ const Login = () => {
     upResetField();
   };
 
-  const addNewUserH = () => {};
+  const addNewUserH = () => {
+    navigate(AppRoutes.registerUser);
+  };
 
   return (
     <>
@@ -141,7 +143,7 @@ const Login = () => {
               className="btn btn-dark btn-sm"
               onClick={addNewUserH}
             >
-              Register New User!
+              Sign Up!
             </button>
           </div>
         </div>

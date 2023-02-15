@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const NoPage = () => {
   return (
     <div>
-      <h1>No Page!</h1>
     </div>
   )
 }
