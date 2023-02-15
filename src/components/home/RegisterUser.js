@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import DatePicker, { CalendarContainer } from "react-datepicker";
+import DatePicker from "react-date-picker";
 
 const RegisterUser = () => {
   console.log("---RegisterUser");
@@ -14,9 +14,12 @@ const RegisterUser = () => {
   } = useForm();
   const PHONE_REGEX = new RegExp("^[7-9][0-9]{9}$");
 
+  const registerData = (dataStr) =>{
+    console.log(dataStr);
+  }
+
   const onSubmit = (data) => {
-    console.log("DATA : ---------------");
-    console.log("DATA ...: " + JSON.stringify(data));
+    registerData(JSON.stringify(data))
   };
 
   return (
@@ -119,7 +122,7 @@ const RegisterUser = () => {
                 name="userMobile"
                 control={control}
                 rules={{
-                  validate: (value) =>  isValidPhoneNumber(value),
+                  validate: (value) => isValidPhoneNumber(value),
                 }}
                 render={({ field: { onChange, value } }) => (
                   <PhoneInput
@@ -150,7 +153,7 @@ const RegisterUser = () => {
                 render={({ field }) => (
                   <DatePicker
                     onChange={(date) => field.onChange(date)}
-                    selected={field.value}
+                    value={field.value}
                   />
                 )}
               />
