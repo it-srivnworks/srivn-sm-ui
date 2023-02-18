@@ -4,11 +4,52 @@ $dark : #083B66;
 
 .sm-background {
     background-color: #083B66;
+}
+
+.login-box{
+    width: 400px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.info-box {
+    background-color: #083B66;
+   }
+
+.info-box-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.8;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 10px;
+    overflow: hidden;
     color: #FFF;
 }
 
-.sm-align-center {
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 20%;
+.progressBar {
+    display: block;
+    border-color: #083B66;
+    color:  #083B66;
 }
+
+.progress {
+    border-radius: 7px; 
+    width: 80%;
+    height: 22px;
+    margin-left: -11.5%;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+.progress::-webkit-progress-bar {
+    background-color: yellow;
+    border-radius: 7px;
+  }
+.progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );
+  }
