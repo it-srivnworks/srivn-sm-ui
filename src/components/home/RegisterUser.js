@@ -3,6 +3,7 @@ import { Controller, useForm } from "react-hook-form";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import DatePicker from "react-date-picker";
+import useHttpPOST from "../../hooks/http/useHttpPOST";
 
 const RegisterUser = () => {
   console.log("---RegisterUser");
@@ -12,10 +13,23 @@ const RegisterUser = () => {
     control,
     formState: { errors },
   } = useForm();
-  const PHONE_REGEX = new RegExp("^[7-9][0-9]{9}$");
+ 
+  const {
+    isReqComplete,
+    respStatusCode ,
+    respMessage,
+    respError,
+    sendPOSTReq: registerUser
+  } = useHttpPOST();
+
+  const respFunc = () =>{
+    console.log('respFunc');
+  }
 
   const registerData = (dataStr) =>{
+    const url = "http://localhost:3000/users/";
     console.log(dataStr);
+    registerUser(url, dataStr, respFunc)
   }
 
   const onSubmit = (data) => {
