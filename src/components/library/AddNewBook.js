@@ -34,7 +34,7 @@ const AddNewBook = () => {
               <i className="far fa-chart-bar" />
               Add New Entry
             </h3>
-            <div className="card-header-right">{fileId}</div>
+            <div className="card-right">{fileId}</div>
           </div>
           <div className="card-body">
             <div className="row">
@@ -163,7 +163,7 @@ const AddNewBook = () => {
                 </form>
               </div>
               <div className="col-md-6">
-                {isUploaded && (
+                {!isUploaded && (
                   <>
                     <div className="form-group">
                       <h4>Upload Cover</h4>
@@ -176,20 +176,28 @@ const AddNewBook = () => {
                     </div>
                   </>
                 )}
-                {!isUploaded && (
+                {isUploaded && (
                   <>
-                   <div className="form-group">
-                   <div>
-                   <img src={mdlogo} className="full-image"></img>
-                   </div>
-                   </div>
-                   <div className="form-group">
-                    <button type="button" className="btn btn-primary" onClick={() => {setIsUploaded(false)}}>
-                      Re Upload
-                    </button>
-                  </div>
+                    <div className="form-group">
+                      <div>
+                        <img src={mdlogo} className="full-image"></img>
+                      </div>
+                    </div>
+                    <div className="form-group">
+                      <div className="card-right">
+                        <button
+                          type="button"
+                          className="btn btn-primary"
+                          onClick={() => {
+                            setIsUploaded(false);
+                          }}
+                        >
+                          Re Upload
+                        </button>
+                      </div>
+                    </div>
                   </>
-                  )}
+                )}
               </div>
             </div>
           </div>
