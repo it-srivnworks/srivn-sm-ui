@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import Dropzone, { useDropzone } from "react-dropzone";
 import useHttpPOSTFile from "../../hooks/http/useHttpPOSTFile";
 
@@ -36,8 +36,8 @@ const imgStyle = {
   height: "80px",
 };
 
-const SingleFileUpload = () => {
-  const { sendPOSTFileReq: postSendFile, progress: uploadProgress } =
+const SingleFileUpload = (props) => {
+  const { sendPOSTFileReq: postSendFile, progress: uploadProgress , setProgress: setUploadProgress } =
     useHttpPOSTFile();
 
   const {
@@ -77,11 +77,12 @@ const SingleFileUpload = () => {
 
   const postRespFunc = () => {
     console.log("postRespFunc");
+    props.respFn();
   };
 
   const sendFileToServer = async () => {
-    let url =
-      "http://localhost:8080/smaster-home/users/students/uploadProfilePic";
+    console.log('fileId......'+props.fileId)
+    let url = "https://httpbin.org/post";
     return await postSendFile(url, fileData[0].fileD, postRespFunc);
   };
 
@@ -123,6 +124,7 @@ const SingleFileUpload = () => {
                           id="file"
                           value={uploadProgress}
                           max="100"
+                          className="progress"
                         ></progress>
                         {uploadProgress}&nbsp;%
                       </div>
@@ -132,9 +134,11 @@ const SingleFileUpload = () => {
                             className="btn btn-outline-primary btn-sm"
                             onClick={sendFileToServer}
                           >
-                            <span>&nbsp;Start&nbsp;</span>
+                            <span>&nbsp;Upload&nbsp;</span>
                             <i className="fa-sharp fa-solid fa-file-arrow-up"></i>
                           </button>
+                          {/* 
+                          
                           <button
                             data-dz-remove
                             className="btn btn-outline-danger btn-sm"
@@ -142,6 +146,8 @@ const SingleFileUpload = () => {
                             <i className="fas fa-trash" />
                             <span>&nbsp;Delete</span>
                           </button>
+
+                          */}
                         </div>
                       </div>
                     </div>

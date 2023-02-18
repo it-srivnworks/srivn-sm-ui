@@ -26,7 +26,6 @@ const useHttpPOSTFile = () => {
     };
 
     let respCode = 0;
-    url = "https://httpbin.org/post";
     axios
       .post(url, formData, config)
       .then((res) => {
@@ -50,7 +49,7 @@ const useHttpPOSTFile = () => {
       });
   };
 
-  return { sendPOSTFileReq, progress };
+  return { sendPOSTFileReq, progress, setProgress };
 };
 
 export default useHttpPOSTFile;
