@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import AddNewBook from "./AddNewBook";
 import ListBooks from "./ListBooks";
 
 const LibraryHome = () => {
   console.log("-LibraryHome");  
+  const[libraryNav,setLibraryNav] = useState(2)
+ 
   return (
     <>
       <div className="content-header">
@@ -42,8 +44,8 @@ const LibraryHome = () => {
             </div>
           </div>
           <div className="row">
-            <AddNewBook />
-            {/*<ListBooks />*/}
+            {libraryNav == 1 && <AddNewBook />}
+            {libraryNav == 2 && <ListBooks/>}
           </div>
         </div>
       </section>

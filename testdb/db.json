@@ -39,5 +39,283 @@
   "id": 10,
   "userEmail": "phamsher9@chicagotribune.com",
   "userPassword": "FeFlREzvzXUs"
+}],
+
+"books-1": [{
+  "id": "01GSK0F9TANE46QFCVAB199CM3",
+  "bookTitle": "Hand Inc",
+  "author": "Farndell",
+  "publication": "Tagchat",
+  "isbn": "01GSK0F9TBB5W0Y4NNZX8TFEXT",
+  "category": "cfarndell0",
+  "bookUnits": 6
+}, {
+  "id": "01GSK0F9TDXTDCAXGRM68J6CRF",
+  "bookTitle": "Schaefer-Bayer",
+  "author": "Scorey",
+  "publication": "Centizu",
+  "isbn": "01GSK0F9TDACZP2P1QCRW6ED0J",
+  "category": "gscorey1",
+  "bookUnits": 37
+}, {
+  "id": "01GSK0F9TE49YTF5QXD6NQQE0N",
+  "bookTitle": "Abernathy and Sons",
+  "author": "Darbey",
+  "publication": "Ainyx",
+  "isbn": "01GSK0F9TFB1M9FEYBT00317TX",
+  "category": "kdarbey2",
+  "bookUnits": 93
+}, {
+  "id": "01GSK0F9TH6YRHFJZ0GNDNSKWK",
+  "bookTitle": "Daugherty-Batz",
+  "author": "Basey",
+  "publication": "Shufflester",
+  "isbn": "01GSK0F9TJFEJE8WJ3KSPQ736Z",
+  "category": "abasey3",
+  "bookUnits": 55
+}, {
+  "id": "01GSK0F9TK1CV7C4B0D7SXWJZ6",
+  "bookTitle": "Bashirian-Mosciski",
+  "author": "Cockling",
+  "publication": "Meezzy",
+  "isbn": "01GSK0F9TMTJFFJ3T00NXW9TSJ",
+  "category": "zcockling4",
+  "bookUnits": 7
+}, {
+  "id": "01GSK0F9TP708ERJ0RA9WX3G3Y",
+  "bookTitle": "Predovic, Orn and Beahan",
+  "author": "Paulitschke",
+  "publication": "Meembee",
+  "isbn": "01GSK0F9TQE8H22NJ7EZJCKAME",
+  "category": "epaulitschke5",
+  "bookUnits": 39
+}, {
+  "id": "01GSK0F9TRDFMPTF4EKBRWJH45",
+  "bookTitle": "Schinner, Parker and Bernhard",
+  "author": "Bucksey",
+  "publication": "Dablist",
+  "isbn": "01GSK0F9TSAS0K6W77T8BJ3GNS",
+  "category": "ebucksey6",
+  "bookUnits": 47
+}, {
+  "id": "01GSK0F9TT4ANQPRJHFQGJPKRZ",
+  "bookTitle": "Hettinger, Miller and Casper",
+  "author": "Mungin",
+  "publication": "Flashpoint",
+  "isbn": "01GSK0F9TT98D6MPYCJ1N9DKMH",
+  "category": "kmungin7",
+  "bookUnits": 40
+}, {
+  "id": "01GSK0F9TVBPDXVN22PS71JMKC",
+  "bookTitle": "Goodwin LLC",
+  "author": "Muggleton",
+  "publication": "Rhyloo",
+  "isbn": "01GSK0F9TW7Z4EXHGHRPPJMKEA",
+  "category": "dmuggleton8",
+  "bookUnits": 16
+}, {
+  "id": "01GSK0F9TXRQB42EW2H3ENBRXP",
+  "bookTitle": "Ziemann Inc",
+  "author": "Okie",
+  "publication": "Dabvine",
+  "isbn": "01GSK0F9TY6EKBEGKKZG4CX60H",
+  "category": "gokie9",
+  "bookUnits": 99
+}, {
+  "id": "01GSK0F9TZRP18GZ7W98E7X8VH",
+  "bookTitle": "Gusikowski-Lindgren",
+  "author": "Sieghart",
+  "publication": "Photobug",
+  "isbn": "01GSK0F9V0Q99DCFF1VG6X57Y5",
+  "category": "asiegharta",
+  "bookUnits": 23
+}, {
+  "id": "01GSK0F9V00WKFN9VXR01F65DY",
+  "bookTitle": "Tillman-D'Amore",
+  "author": "Coleridge",
+  "publication": "Skyvu",
+  "isbn": "01GSK0F9V19P5CC8WQ54VGWDA9",
+  "category": "acoleridgeb",
+  "bookUnits": 27
+}],
+
+"books-2": [{
+  "id": "01GSK0F9V29ABZKHCPHP6HAQQF",
+  "bookTitle": "Jones-Bernhard",
+  "author": "Quoit",
+  "publication": "Zoonoodle",
+  "isbn": "01GSK0F9V3P2D70BN0TK92Z90Y",
+  "category": "kquoitc",
+  "bookUnits": 20
+}, {
+  "id": "01GSK0F9V3HV361VE6PSD1FFRC",
+  "bookTitle": "Marks, Wolff and Balistreri",
+  "author": "Cureton",
+  "publication": "Flipstorm",
+  "isbn": "01GSK0F9V41FN7PHS0TBYVE6ZD",
+  "category": "rcuretond",
+  "bookUnits": 45
+}, {
+  "id": "01GSK0F9V5S1ZYDR0KV7Y759X5",
+  "bookTitle": "Durgan, Swaniawski and Haag",
+  "author": "Blaise",
+  "publication": "Buzzbean",
+  "isbn": "01GSK0F9V67RH67MQEFJW7FRC8",
+  "category": "zblaisee",
+  "bookUnits": 71
+}, {
+  "id": "01GSK0F9V6Y3GRQR55HE198M74",
+  "bookTitle": "Murphy, Mills and Reichert",
+  "author": "Ascough",
+  "publication": "Vinte",
+  "isbn": "01GSK0F9V7ZPR0V76GDEC8NP5M",
+  "category": "eascoughf",
+  "bookUnits": 17
+}, {
+  "id": "01GSK0F9V8S6YR8RSTNWVC8F2E",
+  "bookTitle": "Cruickshank, Zieme and Schaefer",
+  "author": "De Bischof",
+  "publication": "Jetwire",
+  "isbn": "01GSK0F9V9XT0ERY00C6P36YDV",
+  "category": "rdebischofg",
+  "bookUnits": 93
+}, {
+  "id": "01GSK0F9V9KPKAQRBV53HRWWS5",
+  "bookTitle": "Bergstrom, Hansen and Lueilwitz",
+  "author": "Lambot",
+  "publication": "Jabbertype",
+  "isbn": "01GSK0F9VA7GWGW5A3NJ79TPYW",
+  "category": "ilamboth",
+  "bookUnits": 96
+}, {
+  "id": "01GSK0F9VBZRFNS6PA3TAH4JZQ",
+  "bookTitle": "Casper and Sons",
+  "author": "Hayle",
+  "publication": "Kwideo",
+  "isbn": "01GSK0F9VCH20R9QYC2AXND60F",
+  "category": "chaylei",
+  "bookUnits": 46
+}, {
+  "id": "01GSK0F9VC79BA5NQDJAWSEHYT",
+  "bookTitle": "Turcotte-Kovacek",
+  "author": "Grolmann",
+  "publication": "Buzzshare",
+  "isbn": "01GSK0F9VD4MHD977RRWNDVZY5",
+  "category": "vgrolmannj",
+  "bookUnits": 44
+}, {
+  "id": "01GSK0F9VE3BCBXN21EW007JGB",
+  "bookTitle": "Rice, Krajcik and Cummerata",
+  "author": "Rosenfelder",
+  "publication": "Meevee",
+  "isbn": "01GSK0F9VEN6DPSKG0HS0PMMTR",
+  "category": "crosenfelderk",
+  "bookUnits": 13
+}, {
+  "id": "01GSK0F9VFFJHAGS859Q42NVV3",
+  "bookTitle": "King LLC",
+  "author": "Arents",
+  "publication": "Jabberbean",
+  "isbn": "01GSK0F9VHXY9729HYPA0681XZ",
+  "category": "jarentsl",
+  "bookUnits": 20
+}, {
+  "id": "01GSK0F9VJ0ZZK6NQG2K3E113X",
+  "bookTitle": "Stiedemann Inc",
+  "author": "Diggar",
+  "publication": "Realpoint",
+  "isbn": "01GSK0F9VMVGG7R29TT0B6A357",
+  "category": "tdiggarm",
+  "bookUnits": 15
+}],
+
+"books-3":[{
+  "id": "01GSK0F9VNYVR8NEMAW791Y5NH",
+  "bookTitle": "Boehm, Marvin and Gottlieb",
+  "author": "McKeran",
+  "publication": "Tagchat",
+  "isbn": "01GSK0F9VQ111DR9ASRDQNG6QR",
+  "category": "fmckerann",
+  "bookUnits": 69
+}, {
+  "id": "01GSK0F9VRT9HDYK61R2GC2Y7K",
+  "bookTitle": "Larson, Collier and Kling",
+  "author": "Geerits",
+  "publication": "Voomm",
+  "isbn": "01GSK0F9VTP8B42QX312R8EXPC",
+  "category": "sgeeritso",
+  "bookUnits": 12
+}, {
+  "id": "01GSK0F9VVFEEHBPMJ2KKTKJJE",
+  "bookTitle": "Jast LLC",
+  "author": "Mulvaney",
+  "publication": "Kanoodle",
+  "isbn": "01GSK0F9VX5HGSASMEWT6G1SJ5",
+  "category": "cmulvaneyp",
+  "bookUnits": 91
+}, {
+  "id": "01GSK0F9VY87FPJVBJFQ3VH7BC",
+  "bookTitle": "Bartell, Johnson and Kreiger",
+  "author": "Card",
+  "publication": "Riffwire",
+  "isbn": "01GSK0F9VZ6QJ819XX0A8AMASX",
+  "category": "ecardq",
+  "bookUnits": 67
+}, {
+  "id": "01GSK0F9VZ1G9GK0WD5KB6PEBC",
+  "bookTitle": "Rohan-Turner",
+  "author": "Haggith",
+  "publication": "Voonyx",
+  "isbn": "01GSK0F9W0EJ8FG2MGYMQS27HR",
+  "category": "ghaggithr",
+  "bookUnits": 98
+}, {
+  "id": "01GSK0F9W1YACMVYVSGHNRGE2C",
+  "bookTitle": "Lehner, Cormier and Hoeger",
+  "author": "Runnalls",
+  "publication": "Flashdog",
+  "isbn": "01GSK0F9W2QNWRH38GF14RA4X8",
+  "category": "grunnallss",
+  "bookUnits": 28
+}, {
+  "id": "01GSK0F9W27KKQP9DYZJV9DSVP",
+  "bookTitle": "Hyatt and Sons",
+  "author": "Cheek",
+  "publication": "Fivespan",
+  "isbn": "01GSK0F9W3V6CHFQ584GZ1EXJ1",
+  "category": "rcheekt",
+  "bookUnits": 42
+}, {
+  "id": "01GSK0F9W4K1Y9FYWMFKVJNE2P",
+  "bookTitle": "Barton LLC",
+  "author": "Umbert",
+  "publication": "Babblestorm",
+  "isbn": "01GSK0F9W4V05GPN35C9RX4E8P",
+  "category": "kumbertu",
+  "bookUnits": 57
+}, {
+  "id": "01GSK0F9W5JWDZ8K05S9H9G9YN",
+  "bookTitle": "Aufderhar, Hand and White",
+  "author": "Tukely",
+  "publication": "Oyope",
+  "isbn": "01GSK0F9W6GFQ1PC12DTY97DVB",
+  "category": "mtukelyv",
+  "bookUnits": 69
+}, {
+  "id": "01GSK0F9W7YWMYDCZMNKM3XDZ8",
+  "bookTitle": "Purdy Inc",
+  "author": "Corzon",
+  "publication": "Kimia",
+  "isbn": "01GSK0F9W7FTJ1YHC94H3FPPB7",
+  "category": "bcorzonw",
+  "bookUnits": 37
+}, {
+  "id": "01GSK0F9W81778KZTG52A64YQP",
+  "bookTitle": "Leannon-Quigley",
+  "author": "Zorzetti",
+  "publication": "Jabberbean",
+  "isbn": "01GSK0F9W90VQA89BJKCHG8EWG",
+  "category": "jzorzettix",
+  "bookUnits": 71
 }]
 }
