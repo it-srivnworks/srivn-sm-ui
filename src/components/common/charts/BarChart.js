@@ -2,7 +2,7 @@ import React from "react";
 import { CanvasJSChart } from "canvasjs-react-charts";
 
 const BarChart = ({titleHeader,xaxis,yaxis, chartData}) => {
-  
+  console.log('--BarChart--')
   const options = {
     animationEnabled: true,
     theme: "light2",

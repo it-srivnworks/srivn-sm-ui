@@ -5,7 +5,7 @@ import ListBooks from "./ListBooks";
 
 const LibraryHome = () => {
   console.log("-LibraryHome");
-  const [libraryNav, setLibraryNav] = useState(3);
+  const [libraryNav, setLibraryNav] = useState(1);
 
   return (
     <>
@@ -36,6 +36,17 @@ const LibraryHome = () => {
             <div className="info-box" style={{ cursor: "pointer" }} onClick={()=> {setLibraryNav(2)}}>
                 <div className="info-box-content">
                   <span className="info-box-text">List</span>
+                  <span className="info-box-number">
+                    10
+                    <small>%</small>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6 col-md-2">
+            <div className="info-box" style={{ cursor: "pointer" }} onClick={()=> {setLibraryNav(3)}}>
+                <div className="info-box-content">
+                  <span className="info-box-text">Summary</span>
                   <span className="info-box-number">
                     10
                     <small>%</small>

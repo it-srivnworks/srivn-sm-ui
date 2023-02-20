@@ -6,7 +6,7 @@ const MainPage = () => {
 
   return (
     <>
-    <div className="content-wrapper" style={{minHeight: 900, backgroundColor: '#FFF'}}>
+    <div className="content-wrapper" style={{minHeight: 900}}>
        <Outlet>Tester</Outlet>
     </div>   
     </>

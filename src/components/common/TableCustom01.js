@@ -24,7 +24,7 @@ const TableCustom01 = ({
           <Loader />
         ) : (
           <>
-              <table {...getTableProps()} className="table table-bordered">
+              <table {...getTableProps()} className="table-bordered">
                 <thead>
                   {headerGroups.map((headerGroup) => (
                     <tr {...headerGroup.getHeaderGroupProps()}>

@@ -12,25 +12,6 @@ $dark : #083B66;
     margin-top: 10%;
 }
 
-.info-box {
-    background-color: #083B66;
-   }
-
-.info-box-content {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    line-height: 1.8;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 0 10px;
-    overflow: hidden;
-    color: #FFF;
-}
-
 .progressBar {
     display: block;
     border-color: #083B66;

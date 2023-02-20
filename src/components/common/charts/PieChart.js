@@ -1,6 +1,7 @@
 import { CanvasJSChart } from "canvasjs-react-charts";
 
 const PieChart = ({title, chartData}) => {
+  console.log('--PieChart--')
     const options = {
         exportEnabled: true,
         animationEnabled: true,
