@@ -42,280 +42,444 @@
 }],
 
 "books-1": [{
-  "id": "01GSK0F9TANE46QFCVAB199CM3",
-  "bookTitle": "Hand Inc",
-  "author": "Farndell",
-  "publication": "Tagchat",
-  "isbn": "01GSK0F9TBB5W0Y4NNZX8TFEXT",
-  "category": "cfarndell0",
-  "bookUnits": 6
+  "id": 1,
+  "bookTitle": "Maxim Integrated Products, Inc.",
+  "author": "Marcile Beagan",
+  "publication": "Gislason-Sipes",
+  "isbn": "01GSQXRKA4MJKM2R501WAVVM3Z",
+  "category": "Violet",
+  "bookUnits": 94
 }, {
-  "id": "01GSK0F9TDXTDCAXGRM68J6CRF",
-  "bookTitle": "Schaefer-Bayer",
-  "author": "Scorey",
-  "publication": "Centizu",
-  "isbn": "01GSK0F9TDACZP2P1QCRW6ED0J",
-  "category": "gscorey1",
-  "bookUnits": 37
-}, {
-  "id": "01GSK0F9TE49YTF5QXD6NQQE0N",
-  "bookTitle": "Abernathy and Sons",
-  "author": "Darbey",
-  "publication": "Ainyx",
-  "isbn": "01GSK0F9TFB1M9FEYBT00317TX",
-  "category": "kdarbey2",
-  "bookUnits": 93
-}, {
-  "id": "01GSK0F9TH6YRHFJZ0GNDNSKWK",
-  "bookTitle": "Daugherty-Batz",
-  "author": "Basey",
-  "publication": "Shufflester",
-  "isbn": "01GSK0F9TJFEJE8WJ3KSPQ736Z",
-  "category": "abasey3",
-  "bookUnits": 55
-}, {
-  "id": "01GSK0F9TK1CV7C4B0D7SXWJZ6",
-  "bookTitle": "Bashirian-Mosciski",
-  "author": "Cockling",
-  "publication": "Meezzy",
-  "isbn": "01GSK0F9TMTJFFJ3T00NXW9TSJ",
-  "category": "zcockling4",
-  "bookUnits": 7
-}, {
-  "id": "01GSK0F9TP708ERJ0RA9WX3G3Y",
-  "bookTitle": "Predovic, Orn and Beahan",
-  "author": "Paulitschke",
-  "publication": "Meembee",
-  "isbn": "01GSK0F9TQE8H22NJ7EZJCKAME",
-  "category": "epaulitschke5",
-  "bookUnits": 39
-}, {
-  "id": "01GSK0F9TRDFMPTF4EKBRWJH45",
-  "bookTitle": "Schinner, Parker and Bernhard",
-  "author": "Bucksey",
-  "publication": "Dablist",
-  "isbn": "01GSK0F9TSAS0K6W77T8BJ3GNS",
-  "category": "ebucksey6",
-  "bookUnits": 47
-}, {
-  "id": "01GSK0F9TT4ANQPRJHFQGJPKRZ",
-  "bookTitle": "Hettinger, Miller and Casper",
-  "author": "Mungin",
-  "publication": "Flashpoint",
-  "isbn": "01GSK0F9TT98D6MPYCJ1N9DKMH",
-  "category": "kmungin7",
-  "bookUnits": 40
-}, {
-  "id": "01GSK0F9TVBPDXVN22PS71JMKC",
-  "bookTitle": "Goodwin LLC",
-  "author": "Muggleton",
-  "publication": "Rhyloo",
-  "isbn": "01GSK0F9TW7Z4EXHGHRPPJMKEA",
-  "category": "dmuggleton8",
-  "bookUnits": 16
-}, {
-  "id": "01GSK0F9TXRQB42EW2H3ENBRXP",
-  "bookTitle": "Ziemann Inc",
-  "author": "Okie",
-  "publication": "Dabvine",
-  "isbn": "01GSK0F9TY6EKBEGKKZG4CX60H",
-  "category": "gokie9",
-  "bookUnits": 99
-}, {
-  "id": "01GSK0F9TZRP18GZ7W98E7X8VH",
-  "bookTitle": "Gusikowski-Lindgren",
-  "author": "Sieghart",
-  "publication": "Photobug",
-  "isbn": "01GSK0F9V0Q99DCFF1VG6X57Y5",
-  "category": "asiegharta",
-  "bookUnits": 23
-}, {
-  "id": "01GSK0F9V00WKFN9VXR01F65DY",
-  "bookTitle": "Tillman-D'Amore",
-  "author": "Coleridge",
-  "publication": "Skyvu",
-  "isbn": "01GSK0F9V19P5CC8WQ54VGWDA9",
-  "category": "acoleridgeb",
-  "bookUnits": 27
-}],
-
-"books-2": [{
-  "id": "01GSK0F9V29ABZKHCPHP6HAQQF",
-  "bookTitle": "Jones-Bernhard",
-  "author": "Quoit",
-  "publication": "Zoonoodle",
-  "isbn": "01GSK0F9V3P2D70BN0TK92Z90Y",
-  "category": "kquoitc",
-  "bookUnits": 20
-}, {
-  "id": "01GSK0F9V3HV361VE6PSD1FFRC",
-  "bookTitle": "Marks, Wolff and Balistreri",
-  "author": "Cureton",
-  "publication": "Flipstorm",
-  "isbn": "01GSK0F9V41FN7PHS0TBYVE6ZD",
-  "category": "rcuretond",
-  "bookUnits": 45
-}, {
-  "id": "01GSK0F9V5S1ZYDR0KV7Y759X5",
-  "bookTitle": "Durgan, Swaniawski and Haag",
-  "author": "Blaise",
-  "publication": "Buzzbean",
-  "isbn": "01GSK0F9V67RH67MQEFJW7FRC8",
-  "category": "zblaisee",
-  "bookUnits": 71
-}, {
-  "id": "01GSK0F9V6Y3GRQR55HE198M74",
-  "bookTitle": "Murphy, Mills and Reichert",
-  "author": "Ascough",
-  "publication": "Vinte",
-  "isbn": "01GSK0F9V7ZPR0V76GDEC8NP5M",
-  "category": "eascoughf",
+  "id": 2,
+  "bookTitle": "STRATS Trust",
+  "author": "Denyse Pickup",
+  "publication": "Wilderman Inc",
+  "isbn": "01GSQXRKA6C4HX9GGQQKFE3JPK",
+  "category": "Violet",
   "bookUnits": 17
 }, {
-  "id": "01GSK0F9V8S6YR8RSTNWVC8F2E",
-  "bookTitle": "Cruickshank, Zieme and Schaefer",
-  "author": "De Bischof",
-  "publication": "Jetwire",
-  "isbn": "01GSK0F9V9XT0ERY00C6P36YDV",
-  "category": "rdebischofg",
-  "bookUnits": 93
+  "id": 3,
+  "bookTitle": "Intermolecular, Inc.",
+  "author": "Remington Llewellen",
+  "publication": "Emmerich Inc",
+  "isbn": "01GSQXRKA8BMXZHJGZPHATH159",
+  "category": "Pink",
+  "bookUnits": 52
 }, {
-  "id": "01GSK0F9V9KPKAQRBV53HRWWS5",
-  "bookTitle": "Bergstrom, Hansen and Lueilwitz",
-  "author": "Lambot",
-  "publication": "Jabbertype",
-  "isbn": "01GSK0F9VA7GWGW5A3NJ79TPYW",
-  "category": "ilamboth",
-  "bookUnits": 96
-}, {
-  "id": "01GSK0F9VBZRFNS6PA3TAH4JZQ",
-  "bookTitle": "Casper and Sons",
-  "author": "Hayle",
-  "publication": "Kwideo",
-  "isbn": "01GSK0F9VCH20R9QYC2AXND60F",
-  "category": "chaylei",
-  "bookUnits": 46
-}, {
-  "id": "01GSK0F9VC79BA5NQDJAWSEHYT",
-  "bookTitle": "Turcotte-Kovacek",
-  "author": "Grolmann",
-  "publication": "Buzzshare",
-  "isbn": "01GSK0F9VD4MHD977RRWNDVZY5",
-  "category": "vgrolmannj",
-  "bookUnits": 44
-}, {
-  "id": "01GSK0F9VE3BCBXN21EW007JGB",
-  "bookTitle": "Rice, Krajcik and Cummerata",
-  "author": "Rosenfelder",
-  "publication": "Meevee",
-  "isbn": "01GSK0F9VEN6DPSKG0HS0PMMTR",
-  "category": "crosenfelderk",
-  "bookUnits": 13
-}, {
-  "id": "01GSK0F9VFFJHAGS859Q42NVV3",
-  "bookTitle": "King LLC",
-  "author": "Arents",
-  "publication": "Jabberbean",
-  "isbn": "01GSK0F9VHXY9729HYPA0681XZ",
-  "category": "jarentsl",
-  "bookUnits": 20
-}, {
-  "id": "01GSK0F9VJ0ZZK6NQG2K3E113X",
-  "bookTitle": "Stiedemann Inc",
-  "author": "Diggar",
-  "publication": "Realpoint",
-  "isbn": "01GSK0F9VMVGG7R29TT0B6A357",
-  "category": "tdiggarm",
-  "bookUnits": 15
-}],
-
-"books-3":[{
-  "id": "01GSK0F9VNYVR8NEMAW791Y5NH",
-  "bookTitle": "Boehm, Marvin and Gottlieb",
-  "author": "McKeran",
-  "publication": "Tagchat",
-  "isbn": "01GSK0F9VQ111DR9ASRDQNG6QR",
-  "category": "fmckerann",
-  "bookUnits": 69
-}, {
-  "id": "01GSK0F9VRT9HDYK61R2GC2Y7K",
-  "bookTitle": "Larson, Collier and Kling",
-  "author": "Geerits",
-  "publication": "Voomm",
-  "isbn": "01GSK0F9VTP8B42QX312R8EXPC",
-  "category": "sgeeritso",
-  "bookUnits": 12
-}, {
-  "id": "01GSK0F9VVFEEHBPMJ2KKTKJJE",
-  "bookTitle": "Jast LLC",
-  "author": "Mulvaney",
-  "publication": "Kanoodle",
-  "isbn": "01GSK0F9VX5HGSASMEWT6G1SJ5",
-  "category": "cmulvaneyp",
-  "bookUnits": 91
-}, {
-  "id": "01GSK0F9VY87FPJVBJFQ3VH7BC",
-  "bookTitle": "Bartell, Johnson and Kreiger",
-  "author": "Card",
-  "publication": "Riffwire",
-  "isbn": "01GSK0F9VZ6QJ819XX0A8AMASX",
-  "category": "ecardq",
-  "bookUnits": 67
-}, {
-  "id": "01GSK0F9VZ1G9GK0WD5KB6PEBC",
-  "bookTitle": "Rohan-Turner",
-  "author": "Haggith",
-  "publication": "Voonyx",
-  "isbn": "01GSK0F9W0EJ8FG2MGYMQS27HR",
-  "category": "ghaggithr",
+  "id": 4,
+  "bookTitle": "ProPhase Labs, Inc.",
+  "author": "Filmore Sussans",
+  "publication": "Hintz-Harris",
+  "isbn": "01GSQXRKAANTHGF0999SANMCKJ",
+  "category": "Mauv",
   "bookUnits": 98
 }, {
-  "id": "01GSK0F9W1YACMVYVSGHNRGE2C",
-  "bookTitle": "Lehner, Cormier and Hoeger",
-  "author": "Runnalls",
-  "publication": "Flashdog",
-  "isbn": "01GSK0F9W2QNWRH38GF14RA4X8",
-  "category": "grunnallss",
-  "bookUnits": 28
+  "id": 5,
+  "bookTitle": "ING Group, N.V.",
+  "author": "Melesa Kleinstub",
+  "publication": "Cummings, Spencer and Satterfield",
+  "isbn": "01GSQXRKADC8BT87N7XKKCK313",
+  "category": "Green",
+  "bookUnits": 62
 }, {
-  "id": "01GSK0F9W27KKQP9DYZJV9DSVP",
-  "bookTitle": "Hyatt and Sons",
-  "author": "Cheek",
-  "publication": "Fivespan",
-  "isbn": "01GSK0F9W3V6CHFQ584GZ1EXJ1",
-  "category": "rcheekt",
-  "bookUnits": 42
+  "id": 6,
+  "bookTitle": "Harmonic Inc.",
+  "author": "Baron Chittock",
+  "publication": "Krajcik-Davis",
+  "isbn": "01GSQXRKAE6CWXF5XJCFTRJ1CV",
+  "category": "Violet",
+  "bookUnits": 25
 }, {
-  "id": "01GSK0F9W4K1Y9FYWMFKVJNE2P",
-  "bookTitle": "Barton LLC",
-  "author": "Umbert",
-  "publication": "Babblestorm",
-  "isbn": "01GSK0F9W4V05GPN35C9RX4E8P",
-  "category": "kumbertu",
-  "bookUnits": 57
+  "id": 7,
+  "bookTitle": "Medallion Financial Corp.",
+  "author": "Paco Stockport",
+  "publication": "Hills, Kihn and Beatty",
+  "isbn": "01GSQXRKAHNDZ7VNK1RTHBMM39",
+  "category": "Fuscia",
+  "bookUnits": 79
 }, {
-  "id": "01GSK0F9W5JWDZ8K05S9H9G9YN",
-  "bookTitle": "Aufderhar, Hand and White",
-  "author": "Tukely",
-  "publication": "Oyope",
-  "isbn": "01GSK0F9W6GFQ1PC12DTY97DVB",
-  "category": "mtukelyv",
-  "bookUnits": 69
+  "id": 8,
+  "bookTitle": "Tempur Sealy International, Inc.",
+  "author": "Kynthia Beneteau",
+  "publication": "Koss, Cummings and Cremin",
+  "isbn": "01GSQXRKAJ4C81KVFEAWZZ6FRM",
+  "category": "Mauv",
+  "bookUnits": 19
 }, {
-  "id": "01GSK0F9W7YWMYDCZMNKM3XDZ8",
-  "bookTitle": "Purdy Inc",
-  "author": "Corzon",
-  "publication": "Kimia",
-  "isbn": "01GSK0F9W7FTJ1YHC94H3FPPB7",
-  "category": "bcorzonw",
+  "id": 9,
+  "bookTitle": "SORL Auto Parts, Inc.",
+  "author": "Olag Britt",
+  "publication": "Nikolaus Inc",
+  "isbn": "01GSQXRKAK6T9SVN5QYKVXH01C",
+  "category": "Orange",
+  "bookUnits": 59
+}, {
+  "id": 10,
+  "bookTitle": "First Trust NASDAQ Clean Edge Green Energy Index Fund",
+  "author": "Leigh Gare",
+  "publication": "Schulist, Kohler and Mosciski",
+  "isbn": "01GSQXRKAPF2CEYRESXX80R90F",
+  "category": "Puce",
+  "bookUnits": 85
+}, {
+  "id": 11,
+  "bookTitle": "RLI Corp.",
+  "author": "Pacorro Farlambe",
+  "publication": "Smitham-Beer",
+  "isbn": "01GSQXRKARXBCP2Q4ZA2MTWMGG",
+  "category": "Puce",
+  "bookUnits": 63
+}, {
+  "id": 12,
+  "bookTitle": "The Middleby Corporation",
+  "author": "Lillian Blain",
+  "publication": "Bauch Group",
+  "isbn": "01GSQXRKATJQ4DSMCQAJ7Z6N2C",
+  "category": "Orange",
+  "bookUnits": 100
+}, {
+  "id": 13,
+  "bookTitle": "Resolute Energy Corporation",
+  "author": "Marilee Lynas",
+  "publication": "Schumm LLC",
+  "isbn": "01GSQXRKAX0WGT0M1RS6P33XY7",
+  "category": "Pink",
+  "bookUnits": 1
+}, {
+  "id": 14,
+  "bookTitle": "Inovio Pharmaceuticals, Inc.",
+  "author": "Ludwig Edmand",
+  "publication": "Glover, Hoeger and Shanahan",
+  "isbn": "01GSQXRKAY1TGBG7DBWZ3FS3P8",
+  "category": "Fuscia",
+  "bookUnits": 20
+}],
+
+
+"books-2": [{
+  "id": 1,
+  "bookTitle": "MTGE Investment Corp.",
+  "author": "Koo Lambourne",
+  "publication": "Paucek, Muller and Fahey",
+  "isbn": "01GSQXSX4S1YTWVJQCRMCHZTSG",
+  "category": "Orange",
+  "bookUnits": 30
+}, {
+  "id": 2,
+  "bookTitle": "Brown & Brown, Inc.",
+  "author": "Joelynn Scriviner",
+  "publication": "Ferry-Powlowski",
+  "isbn": "01GSQXSX4W6SSWXVK88YQGQ27H",
+  "category": "Blue",
+  "bookUnits": 45
+}, {
+  "id": 3,
+  "bookTitle": "Host Hotels & Resorts, Inc.",
+  "author": "Edik Peasee",
+  "publication": "Nicolas-Metz",
+  "isbn": "01GSQXSX4YEVYHHK5B7547084V",
+  "category": "Turquoise",
+  "bookUnits": 33
+}, {
+  "id": 4,
+  "bookTitle": "J.C. Penney Company, Inc. Holding Company",
+  "author": "Jacqueline Mearing",
+  "publication": "Lebsack-Herman",
+  "isbn": "01GSQXSX51PP95Z0F56WKMEN7R",
+  "category": "Aquamarine",
   "bookUnits": 37
 }, {
-  "id": "01GSK0F9W81778KZTG52A64YQP",
-  "bookTitle": "Leannon-Quigley",
-  "author": "Zorzetti",
-  "publication": "Jabberbean",
-  "isbn": "01GSK0F9W90VQA89BJKCHG8EWG",
-  "category": "jzorzettix",
-  "bookUnits": 71
+  "id": 5,
+  "bookTitle": "NetSol Technologies Inc.",
+  "author": "Hendrik Prest",
+  "publication": "Lemke Inc",
+  "isbn": "01GSQXSX545Z7CQH2FHCMHXN4M",
+  "category": "Pink",
+  "bookUnits": 94
+}, {
+  "id": 6,
+  "bookTitle": "AmTrust Financial Services, Inc.",
+  "author": "Carlyle Waby",
+  "publication": "Graham, Harber and VonRueden",
+  "isbn": "01GSQXSX5627Z1HAM334S9PNFV",
+  "category": "Goldenrod",
+  "bookUnits": 69
+}, {
+  "id": 7,
+  "bookTitle": "Align Technology, Inc.",
+  "author": "Rasia Verduin",
+  "publication": "Hauck Inc",
+  "isbn": "01GSQXSX59K15N0HS9HK6QE3QP",
+  "category": "Turquoise",
+  "bookUnits": 8
+}, {
+  "id": 8,
+  "bookTitle": "Ingersoll-Rand plc (Ireland)",
+  "author": "Leicester Sarfati",
+  "publication": "Langworth-Lockman",
+  "isbn": "01GSQXSX5BNP3NC673PXJEB42Y",
+  "category": "Indigo",
+  "bookUnits": 53
+}, {
+  "id": 9,
+  "bookTitle": "Acadia Healthcare Company, Inc.",
+  "author": "Kaitlynn Iacovucci",
+  "publication": "Cronin Group",
+  "isbn": "01GSQXSX5EQRF0764MRDR914XX",
+  "category": "Pink",
+  "bookUnits": 32
+}, {
+  "id": 10,
+  "bookTitle": "PartnerRe Ltd.",
+  "author": "Humberto Belone",
+  "publication": "Rogahn-Fritsch",
+  "isbn": "01GSQXSX5GT9G3804W2SH02XTF",
+  "category": "Pink",
+  "bookUnits": 24
+}, {
+  "id": 11,
+  "bookTitle": "Theravance Biopharma, Inc.",
+  "author": "Vevay Commucci",
+  "publication": "Kirlin, Stoltenberg and Mante",
+  "isbn": "01GSQXSX5K5NZ3Q79D4CK3FBKH",
+  "category": "Aquamarine",
+  "bookUnits": 84
+}, {
+  "id": 12,
+  "bookTitle": "Independent Bank Corp.",
+  "author": "Federico Wardley",
+  "publication": "Anderson and Sons",
+  "isbn": "01GSQXSX5NGJ5XBE85MH4954YS",
+  "category": "Mauv",
+  "bookUnits": 37
+}],
+
+"books-3": [{
+  "id": 1,
+  "bookTitle": "First Trust Nasdaq Oil & Gas ETF",
+  "author": "Luigi Maskrey",
+  "publication": "Nolan, Schiller and Hermiston",
+  "isbn": "01GSQXV0Z9R0WP7KTC7V87PS50",
+  "category": "Indigo",
+  "bookUnits": 45
+}, {
+  "id": 2,
+  "bookTitle": "IDEX Corporation",
+  "author": "Sisile Tenby",
+  "publication": "Turcotte Group",
+  "isbn": "01GSQXV0ZCE1DJM0NFE1JV1ZRE",
+  "category": "Indigo",
+  "bookUnits": 59
+}, {
+  "id": 3,
+  "bookTitle": "Royal Bank Scotland plc (The)",
+  "author": "Juliette Carbery",
+  "publication": "Sanford-Hoppe",
+  "isbn": "01GSQXV0ZE10WM32CM4F5R48NH",
+  "category": "Pink",
+  "bookUnits": 74
+}, {
+  "id": 4,
+  "bookTitle": "Voya Emerging Markets High Income Dividend Equity Fund",
+  "author": "Curran MacDuff",
+  "publication": "Stoltenberg, Kertzmann and Schimmel",
+  "isbn": "01GSQXV0ZFJW0B7C1P2D9A5FX0",
+  "category": "Maroon",
+  "bookUnits": 2
+}, {
+  "id": 5,
+  "bookTitle": "NL Industries, Inc.",
+  "author": "Merrie Crosio",
+  "publication": "Lubowitz, Jast and Cartwright",
+  "isbn": "01GSQXV0ZHZCYBYA2VRJQGGXD6",
+  "category": "Puce",
+  "bookUnits": 22
+}, {
+  "id": 6,
+  "bookTitle": "Grupo Financiero Santander Mexico S.A. B. de C.V.",
+  "author": "Corilla Joll",
+  "publication": "Streich-Murphy",
+  "isbn": "01GSQXV0ZJEDEM51Y52WW8N1PM",
+  "category": "Purple",
+  "bookUnits": 16
+}, {
+  "id": 7,
+  "bookTitle": "Playa Hotels & Resorts N.V.",
+  "author": "Bren Phillpotts",
+  "publication": "Walsh-Sporer",
+  "isbn": "01GSQXV0ZMMVF266JW03PXV5RV",
+  "category": "Maroon",
+  "bookUnits": 28
+}, {
+  "id": 8,
+  "bookTitle": "Akorn, Inc.",
+  "author": "Debbi MacCrackan",
+  "publication": "Nolan Group",
+  "isbn": "01GSQXV0ZNZDTP6Z995KNY645F",
+  "category": "Violet",
+  "bookUnits": 17
+}, {
+  "id": 9,
+  "bookTitle": "HomeTown Bankshares Corporation",
+  "author": "Carolin Yarn",
+  "publication": "Bergstrom Inc",
+  "isbn": "01GSQXV0ZQQM8Y7N451A2A8BXB",
+  "category": "Mauv",
+  "bookUnits": 31
+}, {
+  "id": 10,
+  "bookTitle": "Churchill Downs, Incorporated",
+  "author": "Theda Lynde",
+  "publication": "Kuhn, Langworth and Langworth",
+  "isbn": "01GSQXV0ZR52M56JY4VJVBKKHR",
+  "category": "Teal",
+  "bookUnits": 85
+}, {
+  "id": 11,
+  "bookTitle": "Starbucks Corporation",
+  "author": "Siobhan Farden",
+  "publication": "Stokes-Corwin",
+  "isbn": "01GSQXV0ZSF1H6B0027GWKX8PR",
+  "category": "Fuscia",
+  "bookUnits": 62
+}, {
+  "id": 12,
+  "bookTitle": "CYS Investments, Inc.",
+  "author": "Lulita Kilvington",
+  "publication": "Torp, Schamberger and Fritsch",
+  "isbn": "01GSQXV0ZVPNJ56YC4Y92YFS29",
+  "category": "Puce",
+  "bookUnits": 73
+}, {
+  "id": 13,
+  "bookTitle": "MuleSoft, Inc.",
+  "author": "Darn Dougal",
+  "publication": "Cremin-Dare",
+  "isbn": "01GSQXV0ZW0A0Q4C8XDQ9J9720",
+  "category": "Maroon",
+  "bookUnits": 94
+}, {
+  "id": 14,
+  "bookTitle": "Netflix, Inc.",
+  "author": "Stephan Beeres",
+  "publication": "Sporer, Brown and Lakin",
+  "isbn": "01GSQXV0ZYZXPGN764Z4AS9204",
+  "category": "Aquamarine",
+  "bookUnits": 5
+}, {
+  "id": 15,
+  "bookTitle": "Alexander & Baldwin Holdings, Inc.",
+  "author": "Talbert Varlow",
+  "publication": "Halvorson-Kuhic",
+  "isbn": "01GSQXV0ZZRQ1Q3KKQ2XBJF8BF",
+  "category": "Mauv",
+  "bookUnits": 61
+}],
+
+"books-4": [{
+  "id": 1,
+  "bookTitle": "United States Cellular Corporation",
+  "author": "Bibby Enocksson",
+  "publication": "Corkery-Effertz",
+  "isbn": "01GSQXVWEJE70F0QHWKWFB6SC7",
+  "category": "Teal",
+  "bookUnits": 77
+}, {
+  "id": 2,
+  "bookTitle": "Akebia Therapeutics, Inc.",
+  "author": "Dalia Tarzey",
+  "publication": "Lynch, Hamill and Fadel",
+  "isbn": "01GSQXVWEMXYTE4TAYRCG6J3KX",
+  "category": "Maroon",
+  "bookUnits": 72
+}, {
+  "id": 3,
+  "bookTitle": "Immune Pharmaceuticals Inc.",
+  "author": "Edeline Falconer",
+  "publication": "O'Hara-Mohr",
+  "isbn": "01GSQXVWEPJ7SH8VJFBEATMV29",
+  "category": "Pink",
+  "bookUnits": 43
+}, {
+  "id": 4,
+  "bookTitle": "Loncar Cancer Immunotherapy ETF",
+  "author": "Edeline Coventon",
+  "publication": "Corkery, Fisher and Beahan",
+  "isbn": "01GSQXVWEQXNEMFZPTVDEJQR40",
+  "category": "Khaki",
+  "bookUnits": 64
+}, {
+  "id": 5,
+  "bookTitle": "First Trust Latin America AlphaDEX Fund",
+  "author": "Sherwin Tonkes",
+  "publication": "Upton, Kozey and Hudson",
+  "isbn": "01GSQXVWERXCDVT5ABE27FZE0B",
+  "category": "Pink",
+  "bookUnits": 77
+}, {
+  "id": 6,
+  "bookTitle": "Primero Mining Corp",
+  "author": "Allin Borthwick",
+  "publication": "Blick-Kozey",
+  "isbn": "01GSQXVWETQ6GVHKNPAA5C0ZV3",
+  "category": "Purple",
+  "bookUnits": 51
+}, {
+  "id": 7,
+  "bookTitle": "J P Morgan Chase & Co",
+  "author": "Abbey Lunny",
+  "publication": "Schuppe-Koch",
+  "isbn": "01GSQXVWEVY3NMX2WD0S20GGGX",
+  "category": "Violet",
+  "bookUnits": 95
+}, {
+  "id": 8,
+  "bookTitle": "Civeo Corporation",
+  "author": "Riccardo Bloan",
+  "publication": "Wunsch, Kuhn and Runte",
+  "isbn": "01GSQXVWEXCDRS3TA99EYANGK4",
+  "category": "Goldenrod",
+  "bookUnits": 91
+}, {
+  "id": 9,
+  "bookTitle": "Wheeler Real Estate Investment Trust, Inc.",
+  "author": "Dela Toppes",
+  "publication": "Luettgen, Ortiz and Leffler",
+  "isbn": "01GSQXVWEYK6N5CXEKF2AKJZXT",
+  "category": "Teal",
+  "bookUnits": 26
+}, {
+  "id": 10,
+  "bookTitle": "Bemis Company, Inc.",
+  "author": "Royce Sate",
+  "publication": "Cronin Group",
+  "isbn": "01GSQXVWF0JE7FJFHAQXKMBZHJ",
+  "category": "Crimson",
+  "bookUnits": 14
+}, {
+  "id": 11,
+  "bookTitle": "Ares Management L.P.",
+  "author": "Quentin Crose",
+  "publication": "McClure, Prohaska and Rolfson",
+  "isbn": "01GSQXVWF2TFG7X7MDJ11REF9M",
+  "category": "Mauv",
+  "bookUnits": 69
+}],
+
+"publicationSummary": [{
+  "count": 43,
+  "publisher": "Topdrive"
+}, {
+  "count": 3,
+  "publisher": "Fiveclub"
+}, {
+  "count": 56,
+  "publisher": "Babblestorm"
+}, {
+  "count": 91,
+  "publisher": "Digitube"
+}, {
+  "count": 77,
+  "publisher": "Realfire"
 }]
 }

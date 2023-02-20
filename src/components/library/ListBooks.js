@@ -35,6 +35,10 @@ const ListBooks = () => {
       accessor: "publication",
     },
     {
+      Header: "Category",
+      accessor: "category",
+    },
+    {
       Header: "No of Units",
       accessor: "units",
     },
@@ -43,7 +47,10 @@ const ListBooks = () => {
       accessor: "id",
       Cell: (cellProp) => {
         return (
-          <DetailsTag openDetailHndlr={openCloseBook} id={cellProp.cell.value} />
+          <DetailsTag
+            openDetailHndlr={openCloseBook}
+            id={cellProp.cell.value}
+          />
         );
       },
     },
@@ -55,6 +62,7 @@ const ListBooks = () => {
       title: book.bookTitle,
       author: book.author,
       publication: book.publication,
+      category: book.category,
       units: book.bookUnits,
     }));
 
@@ -109,7 +117,9 @@ const ListBooks = () => {
           </div>
         </div>
       )}
-      {bookID != 0 && <ViewBookDetails bookID={bookID} closeBook={openCloseBook}/>}
+      {bookID != 0 && (
+        <ViewBookDetails bookID={bookID} closeBook={openCloseBook} />
+      )}
     </>
   );
 };

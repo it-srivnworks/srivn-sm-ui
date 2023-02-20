@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import AddNewBook from "./AddNewBook";
+import LibrarySummary from "./LibrarySummary";
 import ListBooks from "./ListBooks";
 
 const LibraryHome = () => {
-  console.log("-LibraryHome");  
-  const[libraryNav,setLibraryNav] = useState(2)
- 
+  console.log("-LibraryHome");
+  const [libraryNav, setLibraryNav] = useState(3);
+
   return (
     <>
       <div className="content-header">
@@ -21,7 +22,7 @@ const LibraryHome = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-6 col-md-2">
-              <div className="info-box">
+              <div className="info-box" style={{ cursor: "pointer" }} onClick={()=> {setLibraryNav(1)}}>
                 <div className="info-box-content">
                   <span className="info-box-text">Add New</span>
                   <span className="info-box-number">
@@ -32,7 +33,7 @@ const LibraryHome = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-2">
-              <div className="info-box">
+            <div className="info-box" style={{ cursor: "pointer" }} onClick={()=> {setLibraryNav(2)}}>
                 <div className="info-box-content">
                   <span className="info-box-text">List</span>
                   <span className="info-box-number">
@@ -45,7 +46,8 @@ const LibraryHome = () => {
           </div>
           <div className="row">
             {libraryNav == 1 && <AddNewBook />}
-            {libraryNav == 2 && <ListBooks/>}
+            {libraryNav == 2 && <ListBooks />}
+            {libraryNav == 3 && <LibrarySummary />}
           </div>
         </div>
       </section>
