@@ -5,7 +5,7 @@ import useHttpGET from "../../../hooks/http/useHttpGET";
 import BarChart from "../../common/charts/BarChart";
 
 const LibrarySummary = () => {
-  const { sendGETReq: getBookList } = useHttpGET();
+  const { sendGETReq: getSummary } = useHttpGET();
 
   const [data, setData] = useState();
 
@@ -23,7 +23,7 @@ const LibrarySummary = () => {
     console.log("Loading Data");
     const url = "http://localhost:3000/publicationSummary";
     //const url = "https://api.instantwebtools.net/v1/passenger?page=1&size=15";
-    getBookList(url, processResp);
+    getSummary(url, processResp);
   };
 
   useEffect(() => {
