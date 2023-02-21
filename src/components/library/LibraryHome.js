@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import AddNewBook from "./AddNewBook";
-import LibrarySummary from "./LibrarySummary";
-import ListBooks from "./ListBooks";
+import AddNewBook from "./admin/AddNewBook";
+import LibrarySummary from "./admin/LibrarySummary";
+import ListBooks from "./admin/ListBooks";
 
 const LibraryHome = () => {
   console.log("-LibraryHome");
