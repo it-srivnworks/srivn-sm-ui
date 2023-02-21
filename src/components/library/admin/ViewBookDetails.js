@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import mdlogo from "../../assets/images/home/srivn.png";
-import useHttpGET from "../../hooks/http/useHttpGET";
-import * as AppConstants from "../../reduxstore/AppConstants";
+import mdlogo from "../../../assets/images/home/srivn.png";
+import useHttpGET from "../../../hooks/http/useHttpGET";
+import * as AppConstants from "../../../reduxstore/AppConstants";
+import NumberEditor from "../../common/NumberEditor";
 
-const ViewBookDetails = ({ bookID ,closeBook }) => {
+const ViewBookDetails = ({ bookID, closeBook }) => {
   const [bookData, setBookData] = useState([]);
   const { sendGETReq: getBookDetails } = useHttpGET();
 
@@ -23,27 +24,31 @@ const ViewBookDetails = ({ bookID ,closeBook }) => {
   };
 
   const backToParent = () => {
-    closeBook(0)
+    closeBook(0);
+  };
+
+  const updateBookData = () => {
+    console.log("updated book Data : " + JSON.stringify(bookData));
   };
 
   useEffect(() => {
     loadData();
   }, [bookID]);
 
+  const plusNum = () => {
+    setBookData({ ...bookData, bookUnits: bookData.bookUnits + 1 });
+  };
+
+  const minusNum = () => {
+    setBookData({ ...bookData, bookUnits: bookData.bookUnits - 1 });
+  };
+
   return (
     <>
       <div className="content-wrapper">
         <div className="card card-solid">
           <div className="card-header-smaster">
-            <h5>
-              View Book Info
-              <button
-                type="button"
-                className="btn-close-smaster btn-close-white"
-                aria-label="Close"
-                onClick={backToParent}
-              ></button>
-            </h5>
+            <h5>View Book Info</h5>
           </div>
           <div className="card-body">
             <div className="row">
@@ -63,18 +68,28 @@ const ViewBookDetails = ({ bookID ,closeBook }) => {
                     <strong>Author : </strong>
                     {bookData.author}
                   </p>
+                  </div>
+                <div className="row">  
                   <p className="fs-5">
                     <strong>ISBN : </strong>
                     {bookData.isbn}
                   </p>
+                  </div>
+                <div className="row">  
                   <p className="fs-5">
                     <strong>Category : </strong>
                     {bookData.category}
                   </p>
+                  </div>
+                <div className="row"> 
                   <p className="fs-5">
                     <strong>Count : </strong>
-                    {bookData.bookUnits}
                   </p>
+                  <NumberEditor
+                      cVal={bookData.bookUnits}
+                      plus={plusNum}
+                      minus={minusNum}
+                    />
                 </div>
               </div>
               <div className="col-md-4">
@@ -91,6 +106,13 @@ const ViewBookDetails = ({ bookID ,closeBook }) => {
           </div>
           <div className="card-footer">
             <div className="card-body text-primary">
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={updateBookData}
+              >
+                Update
+              </button>
               <button
                 type="button"
                 className="btn btn-primary"

@@ -9,7 +9,7 @@ const DetailsTag = ({openDetailHndlr, id}) => {
         className="btn btn-outline-info btn-sm"
         onClick={() => {openDetailHndlr(id)}}
       >
-        Details
+        View
       </button>
     </>
   );

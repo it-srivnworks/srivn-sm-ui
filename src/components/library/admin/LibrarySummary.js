@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { CanvasJSChart } from "canvasjs-react-charts";
-import PieChart from "../common/charts/PieChart";
-import useHttpGET from "../../hooks/http/useHttpGET";
-import BarChart from "../common/charts/BarChart";
+import PieChart from "../../common/charts/PieChart";
+import useHttpGET from "../../../hooks/http/useHttpGET";
+import BarChart from "../../common/charts/BarChart";
 
 const LibrarySummary = () => {
   const { sendGETReq: getBookList } = useHttpGET();

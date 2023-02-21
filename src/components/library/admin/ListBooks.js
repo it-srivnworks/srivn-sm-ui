@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import useHttpGET from "../../hooks/http/useHttpGET";
-import DetailsTag from "../common/DetailsTag";
-import PaginationC01 from "../common/PaginationC01";
-import TableCustom01 from "../common/TableCustom01";
+import useHttpGET from "../../../hooks/http/useHttpGET";
+import DetailsTag from "../../common/DetailsTag";
+import PaginationC01 from "../../common/PaginationC01";
+import TableCustom01 from "../../common/TableCustom01";
 import ViewBookDetails from "./ViewBookDetails";
 const ListBooks = () => {
   const { sendGETReq: getBookList } = useHttpGET();

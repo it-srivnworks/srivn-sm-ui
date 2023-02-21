@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import SingleFileUpload from "../common/SingleFileUpload";
-import mdlogo from "../../assets/images/home/srivn.png";
+import SingleFileUpload from "../../common/SingleFileUpload";
+import mdlogo from "../../../assets/images/home/srivn.png";
 
 const AddNewBook = () => {
   console.log("---AddNewBook");
