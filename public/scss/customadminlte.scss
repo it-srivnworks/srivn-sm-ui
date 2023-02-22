@@ -190,7 +190,7 @@
     color: #FFF;
 }
 
-.card-body-scroll {
+.row-scroll {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -207,4 +207,18 @@
     height: 600px;
     overflow-x:hidden; 
     overflow-y:auto; 
+}
+
+.timeline {
+    margin: 0 0 45px;
+    padding: 0;
+    position: relative;
+}
+
+
+.time {
+    color: #999;
+    float: right;
+    font-size: 12px;
+    padding: 10px;
 }

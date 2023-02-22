@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import AddNewBook from "./admin/AddNewBook";
 import LibrarySummary from "./admin/LibrarySummary";
 import ListBooks from "./admin/ListBooks";
-import MyLibraryReq from "./users/MyLibraryReq";
+import MyUserLibrary from "./users/MyUserLibrary";
 import RequestBooks from "./users/RequestBooks";
 
 const LibraryHome = () => {
@@ -113,7 +113,7 @@ const LibraryHome = () => {
             {libraryNav == 2 && <ListBooks />}
             {libraryNav == 3 && <LibrarySummary />}
             {libraryNav == 4 && <RequestBooks />}
-            {libraryNav == 5 && <MyLibraryReq/>}
+            {libraryNav == 5 && <MyUserLibrary/>}
           </div>
         </div>
       </section>
