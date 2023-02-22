@@ -3,6 +3,7 @@ import useHttpGET from "../../../hooks/http/useHttpGET";
 import BookCardSmall from "../common/BookCardSmall";
 
 const MyBooksHistory = () => {
+  console.log("-----------MyBooksHistory------------");
   const { sendGETReq: getMyBookOrder } = useHttpGET();
   const [myBookOrder, setMyBookOrder] = useState([]);
 
@@ -20,8 +21,6 @@ const MyBooksHistory = () => {
     loadData();
   }, []);
 
-  console.log("-----------------------");
-  console.log(myBookOrder);
   return (
     <>
       <div className="card">
@@ -33,10 +32,10 @@ const MyBooksHistory = () => {
             <div className="timeline">
               {myBookOrder.map((month, index) => (
                 <div key={month.month}>
-                  <strong><i class="fas fa-book mr-1"></i>&nbsp;{month.month}</strong>
+                  <strong><i className="fas fa-book mr-1"></i>&nbsp;{month.month}</strong>
                   <ul>
                     {month.books.map((book, index) => (
-                      <li>{book.bookTitle}</li>
+                      <li key={book.bookTitle}>{book.bookTitle}</li>
                     ))}
                   </ul>
                 </div>
