@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import logomd from "../../assets/images/home/srivn.png";
 import LibraryHome from "../library/LibraryHome";
 import HomePage from "./HomePage";
 import Login from "./Login";
